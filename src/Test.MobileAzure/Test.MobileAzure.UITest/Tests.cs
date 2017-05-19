@@ -33,6 +33,16 @@ namespace Test.MobileAzure.UITest
             app.WaitForElement(c => c.Marked("MyButton").Text("1 clicks!"));
             //app.Screenshot("First screen.");
         }
+
+        [Test]
+        public void FailedAppLaunches()
+        {
+            app.WaitForElement(c => c.Marked("MyButton"));
+            app.Tap(c => c.Marked("MyButton"));
+            //app.Repl();
+            app.WaitForElement(c => c.Marked("MyButton").Text("xxx!"));
+            //app.Screenshot("First screen.");
+        }
     }
 }
 
