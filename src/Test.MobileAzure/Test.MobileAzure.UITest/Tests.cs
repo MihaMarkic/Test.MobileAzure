@@ -18,9 +18,9 @@ namespace Test.MobileAzure.UITest
             app = ConfigureApp
                 .Android
                 .Debug()
-                //.ApkFile("../../../Test.MobileAzure/bin/Debug/Test.MobileAzure.Test.MobileAzure.apk")
+                .ApkFile("../../../Test.MobileAzure/bin/Release/Test.MobileAzure.Test.MobileAzure.apk")
                 //.ApkFile()
-                .InstalledApp("Test.MobileAzure.Test.MobileAzure")
+                //.InstalledApp("Test.MobileAzure.Test.MobileAzure")
                 .StartApp();
         }
 
