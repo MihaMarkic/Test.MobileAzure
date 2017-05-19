@@ -10,7 +10,7 @@ namespace Test.MobileAzure.UITest
         AndroidApp app;
 
         [SetUp]
-        public void BeforeEachTest()
+        public void BeforeEachTest() 
         {
             // TODO: If the Android app being tested is included in the solution then open
             // the Unit Tests window, right click Test Apps, select Add App Project
