@@ -8,7 +8,7 @@ namespace Test.MobileAzure.UnitTests
         [Test]
         public void AssertTrue()
         {
-            Assert.True(true);
+            Assert.True(false);
         }
     }
 }
